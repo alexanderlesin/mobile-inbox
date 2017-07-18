@@ -1,0 +1,6 @@
+framework module Pods_mobile_inbox {
+  umbrella header "Pods-mobile-inbox-umbrella.h"
+
+  export *
+  module * { export * }
+}
