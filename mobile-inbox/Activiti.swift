@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-protocol Activiti {
+protocol ActivitiDelegate {
     // MARK: - Data delegates
     func onStartDownload    (type: Activiti.ReadDataType)
     func onDownloading      (type: Activiti.ReadDataType, delta: [Activiti.Task]?, index: Int, totalCount: Int)
@@ -326,7 +326,7 @@ class Activiti {
                         var tasks: [Task]? = nil
                         if response.json != nil {
                             tasks = self.parseTasks(response.json!)
-                            if tasks != nil {	
+                            if tasks != nil {
                                 if let size = response.json?["size"].int {
                                     completeHandler(tasks, size)
                                 }

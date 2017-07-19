@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06754C435932622DB1A3EB51 /* Pods_mobile_inbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC89D2BC5B8F53883BF1C660 /* Pods_mobile_inbox.framework */; };
+		F347C8651F1FCE7E0074DAB0 /* RestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347C8641F1FCE7E0074DAB0 /* RestProtocol.swift */; };
 		F3C7604C1F1DE9E5004FB46D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7604B1F1DE9E5004FB46D /* AppDelegate.swift */; };
 		F3C7604E1F1DE9E5004FB46D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7604D1F1DE9E5004FB46D /* ViewController.swift */; };
 		F3C760511F1DE9E5004FB46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C7604F1F1DE9E5004FB46D /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		8DDE8B9731416779DAA9BBE9 /* Pods-mobile-inbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-inbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobile-inbox/Pods-mobile-inbox.debug.xcconfig"; sourceTree = "<group>"; };
 		DC89D2BC5B8F53883BF1C660 /* Pods_mobile_inbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobile_inbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC18EBED1E44D8D8F6DB187A /* Pods-mobile-inbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-inbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-mobile-inbox/Pods-mobile-inbox.release.xcconfig"; sourceTree = "<group>"; };
+		F347C8641F1FCE7E0074DAB0 /* RestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestProtocol.swift; sourceTree = "<group>"; };
 		F3C760481F1DE9E5004FB46D /* mobile-inbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-inbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C7604B1F1DE9E5004FB46D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C7604D1F1DE9E5004FB46D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F347C8631F1FCE4F0074DAB0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F347C8641F1FCE7E0074DAB0 /* RestProtocol.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
 		F3C7603F1F1DE9E5004FB46D = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +133,7 @@
 		F3C7604A1F1DE9E5004FB46D /* mobile-inbox */ = {
 			isa = PBXGroup;
 			children = (
+				F347C8631F1FCE4F0074DAB0 /* Auth */,
 				F3D4DC291F1E94210050F3C8 /* RestAPI */,
 				F3D4DC281F1E93870050F3C8 /* Model */,
 				F3C7604B1F1DE9E5004FB46D /* AppDelegate.swift */,
@@ -354,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C7604E1F1DE9E5004FB46D /* ViewController.swift in Sources */,
+				F347C8651F1FCE7E0074DAB0 /* RestProtocol.swift in Sources */,
 				F3D4DC2B1F1E947C0050F3C8 /* Activiti.swift in Sources */,
 				F3C7604C1F1DE9E5004FB46D /* AppDelegate.swift in Sources */,
 			);
