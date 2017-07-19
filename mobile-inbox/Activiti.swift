@@ -68,7 +68,7 @@ class Activiti {
         var parentTaskId:                   String?
         var memberAssociationType:          String?
         
-        var requestMetadataMap:             [String: String] =[:]
+        var requestMetadataMap:             [String: String] = [:]
         
         init(_ id: String) {
             self.id = id
@@ -83,7 +83,7 @@ class Activiti {
         var activitiType:                   String?
         var assigneeId:                     String?
         var executionId:                    String?
-        var processDefinitioinId:           String?
+        var processDefinitionId:           String?
         var processInstanceId:              String?
         var task:                           String?
         var startTime:                      Date?
@@ -224,7 +224,7 @@ class Activiti {
     }
 
     func readTaskDetails(_ id: String, inBackground: Bool = true, completionHandler: @escaping (Activiti.TaskDetails?) -> Void) {
-        rest.apiCall(taskkDetailPath, 
+        rest.apiCall(taskDetailsPath, 
                      method: .get, 
                      parameters: ["id": id],
                      withRetryCount: 2,
@@ -253,14 +253,14 @@ class Activiti {
 
     func taskDecision(_ id: String,
                         accepted: Bool,
-                        comment: String?
+                        comment: String?,
                         completionHandler: @escaping (Bool?) -> Void) {
 
         rest.apiCall(decisionPath,
                      method: .post,
                      parameters: ["taskId": id,
                                   "accepted": accepted,
-                                  "comment": comment ?? ""]),
+                                  "comment": comment ?? ""],
                      withRetryCount: 2,
                      inBackground: false) { response in
                         if response.json != nil {
@@ -299,5 +299,141 @@ class Activiti {
                                 completionHandler(nil)
                             }
                          }
+    }
+    
+    // MARK: - history
+    
+    func readDataBlock(type: ReadDataType,
+                       from  index: Int,
+                       size: Int,
+                       inBackground: Bool,
+                       completeHandler: @escaping ([Activiti.Task]?, _ totalSize: Int) -> Void) {
+        var path: String
+        switch type {
+            case .assignedTasks:    path = assignedTasksPath
+            case .candidateTasks:   path = candidateTasksPath
+            case .historyData:      path = historyPath
+        }
+        
+        rest.apiCall(path,
+                     method: .get,
+                     parameters: ["from": index,
+                                  "size": size,
+                                  "sortBy": "name",
+                                  "orderBy": "ASC"],
+                     withRetryCount: 2,
+                     inBackground: inBackground) { response in
+                        var tasks: [Task]? = nil
+                        if response.json != nil {
+                            tasks = self.parseTasks(response.json!)
+                            if tasks != nil {	
+                                if let size = response.json?["size"].int {
+                                    completeHandler(tasks, size)
+                                }
+                            }
+                        }
+                        if tasks == nil {
+                            completeHandler(nil, 0)
+                        }
+        }
+    }
+    
+    func readAllData(type: ReadDataType,
+                     sortBy: String = "name",
+                     orderBy: String = "ASC",
+                     inBackground: Bool = false,
+                     completionHandler: @escaping ([Activiti.Task]?) -> Void) {
+        var readedTasks: [Task] = []
+        func internalReadTasks(from index: Int) {
+            readDataBlock(type: type,
+                          from: index,
+                          size: self.readCount,
+                          inBackground: inBackground) { tasks, totalSize in
+                            if tasks != nil {
+                                readedTasks.append(contentsOf: tasks!)
+                                self.delegate?.onDownloading(type: type,
+                                                             delta: tasks!,
+                                                             index: index,
+                                                             totalCount: totalSize)
+                                let newIndex = index + self.readCount
+                                if newIndex < totalSize {
+                                    internalReadTasks(from: newIndex)
+                                } else {
+                                    self.delegate?.onFinishDownload(type: type, tasks: readedTasks)
+                                    completionHandler(readedTasks)
+                                }
+                            } else {
+                                self.delegate?.onFinishDownload(type: type, tasks: nil)
+                                completionHandler(nil)
+                            }
+            }
+        }
+        
+        self.delegate?.onStartDownload(type: type)
+        internalReadTasks(from: 0)
+    }
+    
+    // MARK: - history task details
+    
+    private func parseFlowItem(_ json: JSON) -> FlowItem? {
+        guard let id = json["id"].string else { return nil }
+        var item = FlowItem(id)
+        
+        item.activitiId = json["activitiId"].string
+        item.activitiName = json["activitiName"].string
+        item.activitiType = json["activitiType"].string
+        item.assigneeId = json["assigneeId"].string
+        item.executionId = json["executionId"].string
+        item.processDefinitionId = json["processDefinitionId"].string
+        item.processInstanceId = json["processInstanceId"].string
+        item.task = json["task"].string
+        
+        if let startTime = json["startTime"].int {
+            item.startTime = Date(timeIntervalSince1970: Double(startTime) / 1000.0)
+        }
+        
+        if let endTime = json["endTime"].int {
+            item.endTime = Date(timeIntervalSince1970: Double(endTime) / 1000.0)
+        }
+        
+        item.duration = json["duration"].int
+        
+        if let nextIds = json["nextIds"].array {
+            for nextId in nextIds {
+                if let id = nextId.string {
+                    item.nextIds.append(id)
+                }
+            }
+        }
+        
+        return item
+    }
+    
+    private func parseFlow(_ json: JSON) -> Flow? {
+        guard let beans = json["treeBeans"].array else { return nil }
+        var flow: Flow = [:]
+        for bean in beans {
+            if let item = parseFlowItem(bean) {
+                flow[item.id] = item
+            }
+        }
+        return flow
+    }
+    
+    func readHistoryFlow(_ id: String,
+                         inBackground: Bool = false,
+                         completionHandler: @escaping (Activiti.Flow?) -> Void) {
+        rest.apiCall(historyDetailsPath,
+                     method: .get,
+                     parameters: ["id": id],
+                     withRetryCount: 2,
+                     inBackground: inBackground) { response in
+                        if response.json != nil {
+                            let flow = self.parseFlow(response.json!)
+                            completionHandler(flow)
+                        } else {
+                            completionHandler(nil)
+                        }
+        }
     }
 }
