@@ -13,6 +13,7 @@ import Alamofire
 enum RestError: Error {
     case noData
     case noRefreshToken
+    case noAccessToken
     case invalidAccessToken
     case invalidRefreshToken
     case invalidTokenType
