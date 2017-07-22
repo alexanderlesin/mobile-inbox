@@ -1,0 +1,97 @@
+Success Example
+=================================================
+[OpenIAM RestCall]: Return Values from server
+
+{
+    contextValues = "<null>";
+    error = 0;
+    errorList = "<null>";
+    objectId = "<null>";
+    passwordExpired = 0;
+    possibleErrors = "<null>";
+    redirectURL = "/selfservice";
+    status = 200;
+    successMessage = "<null>";
+    successToken = "<null>";
+    tokenInfo =     {
+        authToken = "zjV51WQq3N0oCxng+Plyk+uE1A9P6lHPVzpvwidFAeVKsHq+OitfUaYhDmbjhF0t+/aZoXH99bAFx1PeOvnjgTwadK9D9E8myKOdmvSKTojsLDKQPEfO3jAxxSgZV7ZxoOXz3gl5Htgq+tZUC1+DkA==";
+        timeToLiveSeconds = "-1";
+    };
+    unlockURL = "<null>";
+    userId = 3000;
+}
+[OpenIAM Login]: Return Value from Server
+RestResponse(error: nil, json: Optional({
+  "passwordExpired" : false,
+  "successToken" : null,
+  "unlockURL" : null,
+  "userId" : "3000",
+  "error" : false,
+  "status" : 200,
+  "contextValues" : null,
+  "tokenInfo" : {
+    "timeToLiveSeconds" : -1,
+    "authToken" : "zjV51WQq3N0oCxng+Plyk+uE1A9P6lHPVzpvwidFAeVKsHq+OitfUaYhDmbjhF0t+\/aZoXH99bAFx1PeOvnjgTwadK9D9E8myKOdmvSKTojsLDKQPEfO3jAxxSgZV7ZxoOXz3gl5Htgq+tZUC1+DkA=="
+  },
+  "errorList" : null,
+  "objectId" : null,
+  "possibleErrors" : null,
+  "successMessage" : null,
+  "redirectURL" : "\/selfservice"
+}))
+
+
+
+
+
+Failed Example
+=================================================
+[OpenIAM RestCall]: Return Values from server
+
+{
+    contextValues = "<null>";
+    error = 1;
+    errorList =     (
+                {
+            error = "INVALID_LOGIN";
+            i18nError = "<null>";
+            message = "Invalid Login and/or Password";
+            params = "<null>";
+            validationError = "<null>";
+        }
+    );
+    objectId = "<null>";
+    passwordExpired = 0;
+    possibleErrors = "<null>";
+    redirectURL = "<null>";
+    status = 500;
+    successMessage = "<null>";
+    successToken = "<null>";
+    tokenInfo = "<null>";
+    unlockURL = "<null>";
+    userId = "<null>";
+}
+[OpenIAM Login]: Return Value from Server
+RestResponse(error: nil, json: Optional({
+  "passwordExpired" : false,
+  "successToken" : null,
+  "unlockURL" : null,
+  "userId" : null,
+  "error" : true,
+  "status" : 500,
+  "contextValues" : null,
+  "tokenInfo" : null,
+  "errorList" : [
+    {
+      "validationError" : null,
+      "message" : "Invalid Login and\/or Password",
+      "params" : null,
+      "i18nError" : null,
+      "error" : "INVALID_LOGIN"
+    }
+  ],
+  "objectId" : null,
+  "possibleErrors" : null,
+  "successMessage" : null,
+  "redirectURL" : null
+}))

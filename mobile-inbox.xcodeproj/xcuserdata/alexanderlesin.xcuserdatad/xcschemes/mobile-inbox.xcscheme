@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3C760471F1DE9E5004FB46D"
+               BlueprintIdentifier = "F3E73C5B1F23451500920EAD"
                BuildableName = "mobile-inbox.app"
                BlueprintName = "mobile-inbox"
                ReferencedContainer = "container:mobile-inbox.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3C7605B1F1DE9E5004FB46D"
+               BlueprintIdentifier = "F3E73C6F1F23451500920EAD"
                BuildableName = "mobile-inboxTests.xctest"
                BlueprintName = "mobile-inboxTests"
                ReferencedContainer = "container:mobile-inbox.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3C760661F1DE9E5004FB46D"
+               BlueprintIdentifier = "F3E73C7A1F23451500920EAD"
                BuildableName = "mobile-inboxUITests.xctest"
                BlueprintName = "mobile-inboxUITests"
                ReferencedContainer = "container:mobile-inbox.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3C760471F1DE9E5004FB46D"
+            BlueprintIdentifier = "F3E73C5B1F23451500920EAD"
             BuildableName = "mobile-inbox.app"
             BlueprintName = "mobile-inbox"
             ReferencedContainer = "container:mobile-inbox.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3C760471F1DE9E5004FB46D"
+            BlueprintIdentifier = "F3E73C5B1F23451500920EAD"
             BuildableName = "mobile-inbox.app"
             BlueprintName = "mobile-inbox"
             ReferencedContainer = "container:mobile-inbox.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F3C760471F1DE9E5004FB46D"
+            BlueprintIdentifier = "F3E73C5B1F23451500920EAD"
             BuildableName = "mobile-inbox.app"
             BlueprintName = "mobile-inbox"
             ReferencedContainer = "container:mobile-inbox.xcodeproj">

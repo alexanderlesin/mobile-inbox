@@ -7,77 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06754C435932622DB1A3EB51 /* Pods_mobile_inbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC89D2BC5B8F53883BF1C660 /* Pods_mobile_inbox.framework */; };
-		F347C8651F1FCE7E0074DAB0 /* RestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347C8641F1FCE7E0074DAB0 /* RestProtocol.swift */; };
-		F347C8671F1FD0B40074DAB0 /* RestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347C8661F1FD0B40074DAB0 /* RestHelper.swift */; };
-		F347C8691F208DA50074DAB0 /* OAuth2Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347C8681F208DA50074DAB0 /* OAuth2Client.swift */; };
-		F3C7604C1F1DE9E5004FB46D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7604B1F1DE9E5004FB46D /* AppDelegate.swift */; };
-		F3C7604E1F1DE9E5004FB46D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7604D1F1DE9E5004FB46D /* ViewController.swift */; };
-		F3C760511F1DE9E5004FB46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C7604F1F1DE9E5004FB46D /* Main.storyboard */; };
-		F3C760531F1DE9E5004FB46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C760521F1DE9E5004FB46D /* Assets.xcassets */; };
-		F3C760561F1DE9E5004FB46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C760541F1DE9E5004FB46D /* LaunchScreen.storyboard */; };
-		F3C760611F1DE9E5004FB46D /* mobile_inboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C760601F1DE9E5004FB46D /* mobile_inboxTests.swift */; };
-		F3C7606C1F1DE9E5004FB46D /* mobile_inboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7606B1F1DE9E5004FB46D /* mobile_inboxUITests.swift */; };
-		F3D4DC2B1F1E947C0050F3C8 /* Activiti.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D4DC2A1F1E947C0050F3C8 /* Activiti.swift */; };
+		B321066E95D1126F3C021575 /* Pods_mobile_inbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAD34C4D9B4D71718C8895E /* Pods_mobile_inbox.framework */; };
+		F310E9591F238CE5005D8F46 /* AuthCookieClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310E9581F238CE5005D8F46 /* AuthCookieClient.swift */; };
+		F310E95B1F2391E1005D8F46 /* LoginExample in Resources */ = {isa = PBXBuildFile; fileRef = F310E95A1F2391E1005D8F46 /* LoginExample */; };
+		F3E73C601F23451500920EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E73C5F1F23451500920EAD /* AppDelegate.swift */; };
+		F3E73C621F23451500920EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E73C611F23451500920EAD /* ViewController.swift */; };
+		F3E73C651F23451500920EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E73C631F23451500920EAD /* Main.storyboard */; };
+		F3E73C671F23451500920EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E73C661F23451500920EAD /* Assets.xcassets */; };
+		F3E73C6A1F23451500920EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E73C681F23451500920EAD /* LaunchScreen.storyboard */; };
+		F3E73C751F23451500920EAD /* mobile_inboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E73C741F23451500920EAD /* mobile_inboxTests.swift */; };
+		F3E73C801F23451500920EAD /* mobile_inboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E73C7F1F23451500920EAD /* mobile_inboxUITests.swift */; };
+		F3E73C8F1F23493B00920EAD /* RestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E73C8E1F23493B00920EAD /* RestProtocol.swift */; };
+		F3E73C911F234A4800920EAD /* RestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E73C901F234A4800920EAD /* RestHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F3C7605D1F1DE9E5004FB46D /* PBXContainerItemProxy */ = {
+		F3E73C711F23451500920EAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F3C760401F1DE9E5004FB46D /* Project object */;
+			containerPortal = F3E73C541F23451500920EAD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F3C760471F1DE9E5004FB46D;
+			remoteGlobalIDString = F3E73C5B1F23451500920EAD;
 			remoteInfo = "mobile-inbox";
 		};
-		F3C760681F1DE9E5004FB46D /* PBXContainerItemProxy */ = {
+		F3E73C7C1F23451500920EAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F3C760401F1DE9E5004FB46D /* Project object */;
+			containerPortal = F3E73C541F23451500920EAD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F3C760471F1DE9E5004FB46D;
+			remoteGlobalIDString = F3E73C5B1F23451500920EAD;
 			remoteInfo = "mobile-inbox";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8DDE8B9731416779DAA9BBE9 /* Pods-mobile-inbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-inbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobile-inbox/Pods-mobile-inbox.debug.xcconfig"; sourceTree = "<group>"; };
-		DC89D2BC5B8F53883BF1C660 /* Pods_mobile_inbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobile_inbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC18EBED1E44D8D8F6DB187A /* Pods-mobile-inbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-inbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-mobile-inbox/Pods-mobile-inbox.release.xcconfig"; sourceTree = "<group>"; };
-		F347C8641F1FCE7E0074DAB0 /* RestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestProtocol.swift; sourceTree = "<group>"; };
-		F347C8661F1FD0B40074DAB0 /* RestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestHelper.swift; sourceTree = "<group>"; };
-		F347C8681F208DA50074DAB0 /* OAuth2Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Client.swift; sourceTree = "<group>"; };
-		F3C760481F1DE9E5004FB46D /* mobile-inbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-inbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3C7604B1F1DE9E5004FB46D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3C7604D1F1DE9E5004FB46D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3C760501F1DE9E5004FB46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3C760521F1DE9E5004FB46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3C760551F1DE9E5004FB46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3C760571F1DE9E5004FB46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3C7605C1F1DE9E5004FB46D /* mobile-inboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-inboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3C760601F1DE9E5004FB46D /* mobile_inboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_inboxTests.swift; sourceTree = "<group>"; };
-		F3C760621F1DE9E5004FB46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3C760671F1DE9E5004FB46D /* mobile-inboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-inboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3C7606B1F1DE9E5004FB46D /* mobile_inboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_inboxUITests.swift; sourceTree = "<group>"; };
-		F3C7606D1F1DE9E5004FB46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D4DC2A1F1E947C0050F3C8 /* Activiti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activiti.swift; sourceTree = "<group>"; };
+		2947AF1B8E7FADC6E1929AAA /* Pods-mobile-inbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-inbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-mobile-inbox/Pods-mobile-inbox.release.xcconfig"; sourceTree = "<group>"; };
+		6B04C086585D4CF095ECBBEB /* Pods-mobile-inbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-inbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobile-inbox/Pods-mobile-inbox.debug.xcconfig"; sourceTree = "<group>"; };
+		9BAD34C4D9B4D71718C8895E /* Pods_mobile_inbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobile_inbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F310E9581F238CE5005D8F46 /* AuthCookieClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthCookieClient.swift; path = OpenIAM/Sources/AuthCookieClient.swift; sourceTree = "<group>"; };
+		F310E95A1F2391E1005D8F46 /* LoginExample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LoginExample; path = OpenIAM/Sources/LoginExample; sourceTree = "<group>"; };
+		F3E73C5C1F23451500920EAD /* mobile-inbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-inbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E73C5F1F23451500920EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3E73C611F23451500920EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3E73C641F23451500920EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3E73C661F23451500920EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E73C691F23451500920EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3E73C6B1F23451500920EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E73C701F23451500920EAD /* mobile-inboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-inboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E73C741F23451500920EAD /* mobile_inboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_inboxTests.swift; sourceTree = "<group>"; };
+		F3E73C761F23451500920EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E73C7B1F23451500920EAD /* mobile-inboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-inboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E73C7F1F23451500920EAD /* mobile_inboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_inboxUITests.swift; sourceTree = "<group>"; };
+		F3E73C811F23451500920EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E73C8E1F23493B00920EAD /* RestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestProtocol.swift; path = OpenIAM/Sources/RestProtocol.swift; sourceTree = "<group>"; };
+		F3E73C901F234A4800920EAD /* RestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestHelper.swift; path = OpenIAM/Sources/RestHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3C760451F1DE9E5004FB46D /* Frameworks */ = {
+		F3E73C591F23451500920EAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06754C435932622DB1A3EB51 /* Pods_mobile_inbox.framework in Frameworks */,
+				B321066E95D1126F3C021575 /* Pods_mobile_inbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3C760591F1DE9E5004FB46D /* Frameworks */ = {
+		F3E73C6D1F23451500920EAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3C760641F1DE9E5004FB46D /* Frameworks */ = {
+		F3E73C781F23451500920EAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,117 +87,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8A756EF502EE96BA15A04C6A /* Frameworks */ = {
+		0DE559E034F93834CD073DDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC89D2BC5B8F53883BF1C660 /* Pods_mobile_inbox.framework */,
+				9BAD34C4D9B4D71718C8895E /* Pods_mobile_inbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D97C29A6D87DAE0FC39D5CE3 /* Pods */ = {
+		EAC3165B77927DAA9583E54F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8DDE8B9731416779DAA9BBE9 /* Pods-mobile-inbox.debug.xcconfig */,
-				EC18EBED1E44D8D8F6DB187A /* Pods-mobile-inbox.release.xcconfig */,
+				6B04C086585D4CF095ECBBEB /* Pods-mobile-inbox.debug.xcconfig */,
+				2947AF1B8E7FADC6E1929AAA /* Pods-mobile-inbox.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F347C8631F1FCE4F0074DAB0 /* Auth */ = {
+		F3E73C531F23451500920EAD = {
 			isa = PBXGroup;
 			children = (
-				F347C8641F1FCE7E0074DAB0 /* RestProtocol.swift */,
-				F347C8661F1FD0B40074DAB0 /* RestHelper.swift */,
-				F347C8681F208DA50074DAB0 /* OAuth2Client.swift */,
-			);
-			name = Auth;
-			sourceTree = "<group>";
-		};
-		F3C7603F1F1DE9E5004FB46D = {
-			isa = PBXGroup;
-			children = (
-				F3C7604A1F1DE9E5004FB46D /* mobile-inbox */,
-				F3C7605F1F1DE9E5004FB46D /* mobile-inboxTests */,
-				F3C7606A1F1DE9E5004FB46D /* mobile-inboxUITests */,
-				F3C760491F1DE9E5004FB46D /* Products */,
-				D97C29A6D87DAE0FC39D5CE3 /* Pods */,
-				8A756EF502EE96BA15A04C6A /* Frameworks */,
+				F3E73C5E1F23451500920EAD /* mobile-inbox */,
+				F3E73C731F23451500920EAD /* mobile-inboxTests */,
+				F3E73C7E1F23451500920EAD /* mobile-inboxUITests */,
+				F3E73C5D1F23451500920EAD /* Products */,
+				EAC3165B77927DAA9583E54F /* Pods */,
+				0DE559E034F93834CD073DDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F3C760491F1DE9E5004FB46D /* Products */ = {
+		F3E73C5D1F23451500920EAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3C760481F1DE9E5004FB46D /* mobile-inbox.app */,
-				F3C7605C1F1DE9E5004FB46D /* mobile-inboxTests.xctest */,
-				F3C760671F1DE9E5004FB46D /* mobile-inboxUITests.xctest */,
+				F3E73C5C1F23451500920EAD /* mobile-inbox.app */,
+				F3E73C701F23451500920EAD /* mobile-inboxTests.xctest */,
+				F3E73C7B1F23451500920EAD /* mobile-inboxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3C7604A1F1DE9E5004FB46D /* mobile-inbox */ = {
+		F3E73C5E1F23451500920EAD /* mobile-inbox */ = {
 			isa = PBXGroup;
 			children = (
-				F347C8631F1FCE4F0074DAB0 /* Auth */,
-				F3D4DC291F1E94210050F3C8 /* RestAPI */,
-				F3D4DC281F1E93870050F3C8 /* Model */,
-				F3C7604B1F1DE9E5004FB46D /* AppDelegate.swift */,
-				F3C7604D1F1DE9E5004FB46D /* ViewController.swift */,
-				F3C7604F1F1DE9E5004FB46D /* Main.storyboard */,
-				F3C760521F1DE9E5004FB46D /* Assets.xcassets */,
-				F3C760541F1DE9E5004FB46D /* LaunchScreen.storyboard */,
-				F3C760571F1DE9E5004FB46D /* Info.plist */,
+				F3E73C8D1F2348BC00920EAD /* Auth */,
+				F3E73C5F1F23451500920EAD /* AppDelegate.swift */,
+				F3E73C611F23451500920EAD /* ViewController.swift */,
+				F3E73C631F23451500920EAD /* Main.storyboard */,
+				F3E73C661F23451500920EAD /* Assets.xcassets */,
+				F3E73C681F23451500920EAD /* LaunchScreen.storyboard */,
+				F3E73C6B1F23451500920EAD /* Info.plist */,
 			);
 			path = "mobile-inbox";
 			sourceTree = "<group>";
 		};
-		F3C7605F1F1DE9E5004FB46D /* mobile-inboxTests */ = {
+		F3E73C731F23451500920EAD /* mobile-inboxTests */ = {
 			isa = PBXGroup;
 			children = (
-				F3C760601F1DE9E5004FB46D /* mobile_inboxTests.swift */,
-				F3C760621F1DE9E5004FB46D /* Info.plist */,
+				F3E73C741F23451500920EAD /* mobile_inboxTests.swift */,
+				F3E73C761F23451500920EAD /* Info.plist */,
 			);
 			path = "mobile-inboxTests";
 			sourceTree = "<group>";
 		};
-		F3C7606A1F1DE9E5004FB46D /* mobile-inboxUITests */ = {
+		F3E73C7E1F23451500920EAD /* mobile-inboxUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F3C7606B1F1DE9E5004FB46D /* mobile_inboxUITests.swift */,
-				F3C7606D1F1DE9E5004FB46D /* Info.plist */,
+				F3E73C7F1F23451500920EAD /* mobile_inboxUITests.swift */,
+				F3E73C811F23451500920EAD /* Info.plist */,
 			);
 			path = "mobile-inboxUITests";
 			sourceTree = "<group>";
 		};
-		F3D4DC281F1E93870050F3C8 /* Model */ = {
+		F3E73C8D1F2348BC00920EAD /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				F310E95A1F2391E1005D8F46 /* LoginExample */,
+				F3E73C8E1F23493B00920EAD /* RestProtocol.swift */,
+				F3E73C901F234A4800920EAD /* RestHelper.swift */,
+				F310E9581F238CE5005D8F46 /* AuthCookieClient.swift */,
 			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		F3D4DC291F1E94210050F3C8 /* RestAPI */ = {
-			isa = PBXGroup;
-			children = (
-				F3D4DC2A1F1E947C0050F3C8 /* Activiti.swift */,
-			);
-			name = RestAPI;
+			name = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3C760471F1DE9E5004FB46D /* mobile-inbox */ = {
+		F3E73C5B1F23451500920EAD /* mobile-inbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3C760701F1DE9E5004FB46D /* Build configuration list for PBXNativeTarget "mobile-inbox" */;
+			buildConfigurationList = F3E73C841F23451500920EAD /* Build configuration list for PBXNativeTarget "mobile-inbox" */;
 			buildPhases = (
-				37E9072790F55DFF59B478EA /* [CP] Check Pods Manifest.lock */,
-				F3C760441F1DE9E5004FB46D /* Sources */,
-				F3C760451F1DE9E5004FB46D /* Frameworks */,
-				F3C760461F1DE9E5004FB46D /* Resources */,
-				D76B436718B58E8D79A6EACC /* [CP] Embed Pods Frameworks */,
-				C98CFA5A20299BDFDC4EC632 /* [CP] Copy Pods Resources */,
+				35EC196FA99B653FDC2FC069 /* [CP] Check Pods Manifest.lock */,
+				F3E73C581F23451500920EAD /* Sources */,
+				F3E73C591F23451500920EAD /* Frameworks */,
+				F3E73C5A1F23451500920EAD /* Resources */,
+				748A75C328EA7D328AF9AB7E /* [CP] Embed Pods Frameworks */,
+				1ADF4EB1B770219580775515 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,72 +189,72 @@
 			);
 			name = "mobile-inbox";
 			productName = "mobile-inbox";
-			productReference = F3C760481F1DE9E5004FB46D /* mobile-inbox.app */;
+			productReference = F3E73C5C1F23451500920EAD /* mobile-inbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3C7605B1F1DE9E5004FB46D /* mobile-inboxTests */ = {
+		F3E73C6F1F23451500920EAD /* mobile-inboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3C760731F1DE9E5004FB46D /* Build configuration list for PBXNativeTarget "mobile-inboxTests" */;
+			buildConfigurationList = F3E73C871F23451500920EAD /* Build configuration list for PBXNativeTarget "mobile-inboxTests" */;
 			buildPhases = (
-				F3C760581F1DE9E5004FB46D /* Sources */,
-				F3C760591F1DE9E5004FB46D /* Frameworks */,
-				F3C7605A1F1DE9E5004FB46D /* Resources */,
+				F3E73C6C1F23451500920EAD /* Sources */,
+				F3E73C6D1F23451500920EAD /* Frameworks */,
+				F3E73C6E1F23451500920EAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3C7605E1F1DE9E5004FB46D /* PBXTargetDependency */,
+				F3E73C721F23451500920EAD /* PBXTargetDependency */,
 			);
 			name = "mobile-inboxTests";
 			productName = "mobile-inboxTests";
-			productReference = F3C7605C1F1DE9E5004FB46D /* mobile-inboxTests.xctest */;
+			productReference = F3E73C701F23451500920EAD /* mobile-inboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F3C760661F1DE9E5004FB46D /* mobile-inboxUITests */ = {
+		F3E73C7A1F23451500920EAD /* mobile-inboxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3C760761F1DE9E5004FB46D /* Build configuration list for PBXNativeTarget "mobile-inboxUITests" */;
+			buildConfigurationList = F3E73C8A1F23451500920EAD /* Build configuration list for PBXNativeTarget "mobile-inboxUITests" */;
 			buildPhases = (
-				F3C760631F1DE9E5004FB46D /* Sources */,
-				F3C760641F1DE9E5004FB46D /* Frameworks */,
-				F3C760651F1DE9E5004FB46D /* Resources */,
+				F3E73C771F23451500920EAD /* Sources */,
+				F3E73C781F23451500920EAD /* Frameworks */,
+				F3E73C791F23451500920EAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3C760691F1DE9E5004FB46D /* PBXTargetDependency */,
+				F3E73C7D1F23451500920EAD /* PBXTargetDependency */,
 			);
 			name = "mobile-inboxUITests";
 			productName = "mobile-inboxUITests";
-			productReference = F3C760671F1DE9E5004FB46D /* mobile-inboxUITests.xctest */;
+			productReference = F3E73C7B1F23451500920EAD /* mobile-inboxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3C760401F1DE9E5004FB46D /* Project object */ = {
+		F3E73C541F23451500920EAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Alexander Lesin";
 				TargetAttributes = {
-					F3C760471F1DE9E5004FB46D = {
+					F3E73C5B1F23451500920EAD = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
-					F3C7605B1F1DE9E5004FB46D = {
+					F3E73C6F1F23451500920EAD = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F3C760471F1DE9E5004FB46D;
+						TestTargetID = F3E73C5B1F23451500920EAD;
 					};
-					F3C760661F1DE9E5004FB46D = {
+					F3E73C7A1F23451500920EAD = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F3C760471F1DE9E5004FB46D;
+						TestTargetID = F3E73C5B1F23451500920EAD;
 					};
 				};
 			};
-			buildConfigurationList = F3C760431F1DE9E5004FB46D /* Build configuration list for PBXProject "mobile-inbox" */;
+			buildConfigurationList = F3E73C571F23451500920EAD /* Build configuration list for PBXProject "mobile-inbox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -278,37 +262,38 @@
 				en,
 				Base,
 			);
-			mainGroup = F3C7603F1F1DE9E5004FB46D;
-			productRefGroup = F3C760491F1DE9E5004FB46D /* Products */;
+			mainGroup = F3E73C531F23451500920EAD;
+			productRefGroup = F3E73C5D1F23451500920EAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3C760471F1DE9E5004FB46D /* mobile-inbox */,
-				F3C7605B1F1DE9E5004FB46D /* mobile-inboxTests */,
-				F3C760661F1DE9E5004FB46D /* mobile-inboxUITests */,
+				F3E73C5B1F23451500920EAD /* mobile-inbox */,
+				F3E73C6F1F23451500920EAD /* mobile-inboxTests */,
+				F3E73C7A1F23451500920EAD /* mobile-inboxUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3C760461F1DE9E5004FB46D /* Resources */ = {
+		F3E73C5A1F23451500920EAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C760561F1DE9E5004FB46D /* LaunchScreen.storyboard in Resources */,
-				F3C760531F1DE9E5004FB46D /* Assets.xcassets in Resources */,
-				F3C760511F1DE9E5004FB46D /* Main.storyboard in Resources */,
+				F3E73C6A1F23451500920EAD /* LaunchScreen.storyboard in Resources */,
+				F310E95B1F2391E1005D8F46 /* LoginExample in Resources */,
+				F3E73C671F23451500920EAD /* Assets.xcassets in Resources */,
+				F3E73C651F23451500920EAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3C7605A1F1DE9E5004FB46D /* Resources */ = {
+		F3E73C6E1F23451500920EAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3C760651F1DE9E5004FB46D /* Resources */ = {
+		F3E73C791F23451500920EAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,22 +303,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		37E9072790F55DFF59B478EA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C98CFA5A20299BDFDC4EC632 /* [CP] Copy Pods Resources */ = {
+		1ADF4EB1B770219580775515 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,7 +318,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobile-inbox/Pods-mobile-inbox-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D76B436718B58E8D79A6EACC /* [CP] Embed Pods Frameworks */ = {
+		35EC196FA99B653FDC2FC069 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		748A75C328EA7D328AF9AB7E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,63 +351,62 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3C760441F1DE9E5004FB46D /* Sources */ = {
+		F3E73C581F23451500920EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C7604E1F1DE9E5004FB46D /* ViewController.swift in Sources */,
-				F347C8691F208DA50074DAB0 /* OAuth2Client.swift in Sources */,
-				F347C8651F1FCE7E0074DAB0 /* RestProtocol.swift in Sources */,
-				F3D4DC2B1F1E947C0050F3C8 /* Activiti.swift in Sources */,
-				F3C7604C1F1DE9E5004FB46D /* AppDelegate.swift in Sources */,
-				F347C8671F1FD0B40074DAB0 /* RestHelper.swift in Sources */,
+				F3E73C8F1F23493B00920EAD /* RestProtocol.swift in Sources */,
+				F310E9591F238CE5005D8F46 /* AuthCookieClient.swift in Sources */,
+				F3E73C911F234A4800920EAD /* RestHelper.swift in Sources */,
+				F3E73C621F23451500920EAD /* ViewController.swift in Sources */,
+				F3E73C601F23451500920EAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3C760581F1DE9E5004FB46D /* Sources */ = {
+		F3E73C6C1F23451500920EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C760611F1DE9E5004FB46D /* mobile_inboxTests.swift in Sources */,
+				F3E73C751F23451500920EAD /* mobile_inboxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3C760631F1DE9E5004FB46D /* Sources */ = {
+		F3E73C771F23451500920EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C7606C1F1DE9E5004FB46D /* mobile_inboxUITests.swift in Sources */,
+				F3E73C801F23451500920EAD /* mobile_inboxUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F3C7605E1F1DE9E5004FB46D /* PBXTargetDependency */ = {
+		F3E73C721F23451500920EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3C760471F1DE9E5004FB46D /* mobile-inbox */;
-			targetProxy = F3C7605D1F1DE9E5004FB46D /* PBXContainerItemProxy */;
+			target = F3E73C5B1F23451500920EAD /* mobile-inbox */;
+			targetProxy = F3E73C711F23451500920EAD /* PBXContainerItemProxy */;
 		};
-		F3C760691F1DE9E5004FB46D /* PBXTargetDependency */ = {
+		F3E73C7D1F23451500920EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3C760471F1DE9E5004FB46D /* mobile-inbox */;
-			targetProxy = F3C760681F1DE9E5004FB46D /* PBXContainerItemProxy */;
+			target = F3E73C5B1F23451500920EAD /* mobile-inbox */;
+			targetProxy = F3E73C7C1F23451500920EAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F3C7604F1F1DE9E5004FB46D /* Main.storyboard */ = {
+		F3E73C631F23451500920EAD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3C760501F1DE9E5004FB46D /* Base */,
+				F3E73C641F23451500920EAD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3C760541F1DE9E5004FB46D /* LaunchScreen.storyboard */ = {
+		F3E73C681F23451500920EAD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3C760551F1DE9E5004FB46D /* Base */,
+				F3E73C691F23451500920EAD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -430,7 +414,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3C7606E1F1DE9E5004FB46D /* Debug */ = {
+		F3E73C821F23451500920EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -481,7 +465,7 @@
 			};
 			name = Debug;
 		};
-		F3C7606F1F1DE9E5004FB46D /* Release */ = {
+		F3E73C831F23451500920EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -525,9 +509,9 @@
 			};
 			name = Release;
 		};
-		F3C760711F1DE9E5004FB46D /* Debug */ = {
+		F3E73C851F23451500920EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DDE8B9731416779DAA9BBE9 /* Pods-mobile-inbox.debug.xcconfig */;
+			baseConfigurationReference = 6B04C086585D4CF095ECBBEB /* Pods-mobile-inbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "mobile-inbox/Info.plist";
@@ -538,9 +522,9 @@
 			};
 			name = Debug;
 		};
-		F3C760721F1DE9E5004FB46D /* Release */ = {
+		F3E73C861F23451500920EAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC18EBED1E44D8D8F6DB187A /* Pods-mobile-inbox.release.xcconfig */;
+			baseConfigurationReference = 2947AF1B8E7FADC6E1929AAA /* Pods-mobile-inbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "mobile-inbox/Info.plist";
@@ -551,7 +535,7 @@
 			};
 			name = Release;
 		};
-		F3C760741F1DE9E5004FB46D /* Debug */ = {
+		F3E73C881F23451500920EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -565,7 +549,7 @@
 			};
 			name = Debug;
 		};
-		F3C760751F1DE9E5004FB46D /* Release */ = {
+		F3E73C891F23451500920EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -579,7 +563,7 @@
 			};
 			name = Release;
 		};
-		F3C760771F1DE9E5004FB46D /* Debug */ = {
+		F3E73C8B1F23451500920EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -592,7 +576,7 @@
 			};
 			name = Debug;
 		};
-		F3C760781F1DE9E5004FB46D /* Release */ = {
+		F3E73C8C1F23451500920EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -608,43 +592,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3C760431F1DE9E5004FB46D /* Build configuration list for PBXProject "mobile-inbox" */ = {
+		F3E73C571F23451500920EAD /* Build configuration list for PBXProject "mobile-inbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C7606E1F1DE9E5004FB46D /* Debug */,
-				F3C7606F1F1DE9E5004FB46D /* Release */,
+				F3E73C821F23451500920EAD /* Debug */,
+				F3E73C831F23451500920EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3C760701F1DE9E5004FB46D /* Build configuration list for PBXNativeTarget "mobile-inbox" */ = {
+		F3E73C841F23451500920EAD /* Build configuration list for PBXNativeTarget "mobile-inbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C760711F1DE9E5004FB46D /* Debug */,
-				F3C760721F1DE9E5004FB46D /* Release */,
+				F3E73C851F23451500920EAD /* Debug */,
+				F3E73C861F23451500920EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3C760731F1DE9E5004FB46D /* Build configuration list for PBXNativeTarget "mobile-inboxTests" */ = {
+		F3E73C871F23451500920EAD /* Build configuration list for PBXNativeTarget "mobile-inboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C760741F1DE9E5004FB46D /* Debug */,
-				F3C760751F1DE9E5004FB46D /* Release */,
+				F3E73C881F23451500920EAD /* Debug */,
+				F3E73C891F23451500920EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3C760761F1DE9E5004FB46D /* Build configuration list for PBXNativeTarget "mobile-inboxUITests" */ = {
+		F3E73C8A1F23451500920EAD /* Build configuration list for PBXNativeTarget "mobile-inboxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C760771F1DE9E5004FB46D /* Debug */,
-				F3C760781F1DE9E5004FB46D /* Release */,
+				F3E73C8B1F23451500920EAD /* Debug */,
+				F3E73C8C1F23451500920EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3C760401F1DE9E5004FB46D /* Project object */;
+	rootObject = F3E73C541F23451500920EAD /* Project object */;
 }
